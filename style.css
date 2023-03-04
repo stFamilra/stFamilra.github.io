@@ -1,0 +1,349 @@
+@import url(fonts/Gilroy/bold/style.css);
+@import url(fonts/Gilroy/medium/style.css);
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy", sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+li {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 47.3392px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 0;
+}
+
+/** SECTIONS **/
+
+.about-me,
+.portfolio {
+  background-color: #f6f6f6;
+}
+
+/** CONTAINERS **/
+
+.header__container {
+  width: 944px;
+  margin: 0 auto;
+  /* border: blue 1px solid; */
+}
+.about-me__container {
+  width: 944px;
+  margin: 0 auto;
+  /* border: violet 1px solid; */
+}
+.skills__container {
+  width: 944px;
+  margin: 0 auto;
+  /* border: seagreen 1px solid; */
+}
+.portfolio__container {
+  width: 944px;
+  margin: 0 auto;
+  /* border: darkgoldenrod 1px solid; */
+}
+.contacts__container {
+  width: 944px;
+  margin: 0 auto;
+  /* border: darkorange 1px solid; */
+}
+.footer__container {
+  width: 944px;
+  margin: 0 auto;
+  /* border: blue 1px solid; */
+}
+
+/**   HEADER **/
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  /* border: red 2px dotted; */
+  line-height: 22px;
+  color: #828282;
+  border-bottom: 1px solid #828282;
+  background-color: white;
+}
+
+.header__menu li {
+  padding-bottom: 32px;
+}
+
+.active_menu {
+  font-weight: bold;
+  color: #070707;
+}
+
+.header__description {
+  display: flex;
+  justify-content: space-between;
+  /* border: red 1px solid; */
+  align-items: center;
+  padding-top: 40px;
+}
+
+.header__description li:nth-child(1) {
+  color: 070707;
+  font-weight: bold;
+  font-size: 47.3392px;
+  line-height: 59px;
+  width: 123.51px;
+  padding-bottom: 31px;
+  /* margin-top: 40px; */
+}
+
+.header__description li:nth-child(2) {
+  margin-top: 0em;
+  font-size: 18px;
+  line-height: 22px;
+  width: 155.65px;
+}
+
+.header__description li:nth-child(3) {
+  transform: rotate(-90deg);
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.header__description li i {
+  font-style: normal;
+  color: #828282;
+}
+
+header img {
+  padding: 0 0 96px 0;
+  margin: 0;
+}
+
+/** 
+
+About me
+
+**/
+
+.about-me__description h2 {
+  padding-bottom: 18px;
+}
+
+.about-me__description {
+  text-align: center;
+  padding-top: 129px;
+  padding-bottom: 99px;
+  color: black;
+}
+
+.about-me__description p:nth-child(3) {
+  padding-bottom: 22px;
+}
+
+.about-me__description p:nth-child(5) {
+  padding-bottom: 22px;
+}
+
+/** 
+
+SKILLS 
+
+**/
+
+.skills h2 {
+  margin-top: 99px;
+}
+
+.skills_description {
+  text-align: center;
+  color: black;
+}
+.skills_description p {
+  margin-top: 70px;
+}
+
+.skills__app {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 280px;
+  margin-right: 230px;
+  margin-top: 83px;
+  margin-bottom: 50px;
+}
+
+.skills__app div {
+  margin-right: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skills__app h3 {
+  font-size: 14px;
+  font-family: "Abhaya Libre", serif;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin: 23px 0 41px 0;
+}
+
+.figma-color {
+  width: 80.21px;
+}
+
+.stars {
+  display: flex;
+  /* margin-bottom: 109px; */
+  /* margin-right: 9px; */
+}
+
+.stars li {
+  margin-right: 9px;
+}
+
+.ps-color .star:nth-child(5) {
+  color: #e5e5e5;
+}
+.ill-color .star:nth-child(n + 4) {
+  color: #e5e5e5;
+}
+
+.ae-color .star:nth-child(5) {
+  color: #e5e5e5;
+}
+
+.figma-color .star:nth-child(5) {
+  color: #e5e5e5;
+}
+
+/** 
+
+PORTFOLIO
+
+**/
+
+.portfolio__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 47px;
+}
+
+.portfolio__img p {
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 99px;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.portfolio__img p:nth-child(n + 5) {
+  margin-bottom: 94px;
+}
+
+/** 
+
+CONTACTS
+
+**/
+
+.contacts__order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 115px 0 80px 0;
+}
+
+.contacts__order h2 {
+  font-size: 34px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.contacts__order p {
+  color: #070707;
+}
+
+.contacts__order p:nth-child(2) {
+  margin-bottom: 5px;
+}
+
+.contacts__btn {
+  margin-top: 30px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  padding: 15px 30px 7px;
+  background: black;
+  color: white;
+  font-family: "Abhaya Libre";
+  font-weight: 700;
+  line-height: 21px;
+}
+
+/** 
+
+  FOOTER
+
+**/
+
+.footer__img {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__img li:nth-child(1) {
+  margin-right: 60px;
+}
+
+.footer__img li:nth-child(2) {
+  margin-right: 60px;
+}
+.footer__img li:nth-child(3) {
+  margin-right: 60px;
+}
+
+.footer__text {
+  margin-top: 45px;
+  margin-bottom: 140px;
+  text-align: center;
+  color: #828282;
+  font-size: 14px;
+  line-height: 17px;
+}
